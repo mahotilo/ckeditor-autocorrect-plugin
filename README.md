@@ -78,3 +78,10 @@ Author
 
 + http://twitter.com/DanyaPostfactum
 + http://github.com/danyaPostfactum
+
+
+Fork changelog
+---------------
+- fixed dialog width
+- autoselect doubleQuotes style for Cyrillic languages
+
