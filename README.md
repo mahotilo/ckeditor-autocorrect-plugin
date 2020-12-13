@@ -81,7 +81,7 @@ Author
 
 
 Fork changelog
----------------
+==================
 - fixed dialog width
 - autoselect doubleQuotes style for Cyrillic languages
 
