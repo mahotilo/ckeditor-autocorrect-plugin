@@ -19,8 +19,8 @@
 		return {
 				title: lang.autocorrect,
 				resizable: CKEDITOR.DIALOG_RESIZE_NONE,
-				minWidth: 350,
-				minHeight: 170,
+				minWidth: 450,
+				minHeight: 200,
 				onOk: function() {
 					this.commitContent();
 				},

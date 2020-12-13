@@ -102,7 +102,7 @@
 
 	CKEDITOR.plugins.add( 'autocorrect', {
 		requires: 'menubutton',
-		lang: 'en,ru',
+		lang: 'en,ru,uk',
 		icons: 'autocorrect', // %REMOVE_LINE_CORE%
 		hidpi: true, // %REMOVE_LINE_CORE%
 		init: function( editor ) {
@@ -770,6 +770,10 @@
 			}
 
 			var doubleQuotes = config.autocorrect_doubleQuotes;
+			const CYR = ['uk','ru'];
+			if ( CYR.includes(config.language) ) {
+				doubleQuotes = config.autocorrect_doubleQuotes_CYR;
+			};
 			function replaceDoubleQuote(cursor, input) {
 				if (input !== '"')
 					return false;
@@ -989,6 +993,7 @@ CKEDITOR.config.autocorrect_smartQuotesAsYouType = true;
 CKEDITOR.config.autocorrect_smartQuotes = true;
 // language specific
 CKEDITOR.config.autocorrect_doubleQuotes = "“”";
+CKEDITOR.config.autocorrect_doubleQuotes_CYR = "«»";
 
 CKEDITOR.config.autocorrect_createHorizontalRulesAsYouType = true;
 
