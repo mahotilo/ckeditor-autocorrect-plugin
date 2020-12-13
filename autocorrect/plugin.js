@@ -1006,6 +1006,3 @@ CKEDITOR.config.autocorrect_formatBulletedLists = true;
 CKEDITOR.config.autocorrect_formatNumberedListsAsYouType = true;
 
 CKEDITOR.config.autocorrect_formatNumberedLists = true;
-
-// XXX table autocreation?
-// XXX upper first word of a sentense?
